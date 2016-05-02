@@ -6,9 +6,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import java.time.LocalDateTime;
 
-/**
- * Created by Ultramar on 5/2/16.
- */
+
 @Entity
 @Table(name = "purchases")
 public class Purchases {

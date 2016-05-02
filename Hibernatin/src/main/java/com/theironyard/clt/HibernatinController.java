@@ -12,9 +12,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-/**
- * Created by Ultramar on 5/2/16.
- */
+
 @Controller
 public class HibernatinController {
     @Autowired
@@ -34,7 +32,7 @@ public class HibernatinController {
     @PostConstruct
     public void init() throws IOException{
         FileWriter fr = new FileWriter("purchases.txt");
-        
+
 
     }
 

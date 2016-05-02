@@ -2,9 +2,7 @@ package com.theironyard.clt;
 
 import javax.persistence.*;
 
-/**
- * Created by Ultramar on 5/2/16.
- */
+
 @Entity
 @Table(name = "customers")
 public class Customers {
