@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.annotation.PostConstruct;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -32,7 +33,9 @@ public class HibernatinController {
 
     @PostConstruct
     public void init() throws IOException{
-        FileWriter fw = new FileWriter("customers.txt");
+        FileWriter fr = new FileWriter("purchases.txt");
+        
+
     }
 
 
