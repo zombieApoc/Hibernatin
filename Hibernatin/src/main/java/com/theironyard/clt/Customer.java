@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "customers")
-public class Customers {
+public class Customer {
     @Id
     @GeneratedValue
     int id;
@@ -16,8 +16,12 @@ public class Customers {
     @Column(nullable = false)
     String eMail;
 
-    public Customers(String name, String eMail) {
+    public Customer(String name, String eMail) {
         this.name = name;
         this.eMail = eMail;
     }
+
+    public Customer() {
+    }
+
 }
