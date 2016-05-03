@@ -32,7 +32,7 @@ public class HibernatinController {
     @PostConstruct
     public void init() throws IOException{
         FileWriter fr = new FileWriter("purchases.txt");
-
+        
 
     }
 
